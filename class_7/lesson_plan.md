@@ -1,9 +1,30 @@
-# Title
+# Agents
 
 ## Introduction
 
 
 ## Core Competencies
+
+AI workers completing tasks autonomously
+Agent control and effectiveness
+Topics covered:
+Agentic lifecycle
+ReAct prompt pattern
+Building agents and function calling
+Examples:
+PBM chatbot
+Wikipedia agent
+
+LangGraph
+
+AI graph components
+Use cases and architecture
+Multi-agent graph concept
+Hierarchical teams
+
+Examples:
+Sales calls
+News article summarizer
 
 ### The student must demonstrate...
 

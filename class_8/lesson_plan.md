@@ -1,9 +1,19 @@
-# Title
+# Fine Tuning
 
 ## Introduction
 
 
 ## Core Competencies
+
+Reduces token usage and costs
+Topics covered:
+Fine-tuning process and pros/cons
+Data preparation and model selection
+Model merging and evaluation
+
+Examples:
+SQL DB fine-tuning
+Review response generator
 
 ### The student must demonstrate...
 

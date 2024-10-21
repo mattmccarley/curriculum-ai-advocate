@@ -1,9 +1,21 @@
-# Title
+# Developer Productivity
 
 ## Introduction
 
 
 ## Core Competencies
+
+GenAI apps for developers
+Examples of top tools:
+Cursor
+Chat
+Inline chat
+Indexing docs/codebase
+
+Tools walkthrough:
+Agents
+Ollama
+LangChain
 
 ### The student must demonstrate...
 

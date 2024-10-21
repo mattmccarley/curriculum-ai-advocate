@@ -1,9 +1,20 @@
-# Title
+# RAG Data Ingestion
 
 ## Introduction
 
 
 ## Core Competencies
+
+Querying databases without SQL
+Pertinent data for LLM-driven results
+Topics covered:
+Text-to-SQL queries
+Restructuring data for retrieval
+Grouping tables into categories
+
+Examples:
+Querying large databases
+
 
 ### The student must demonstrate...
 
