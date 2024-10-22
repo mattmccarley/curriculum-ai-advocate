@@ -1,6 +1,6 @@
 # Creating an AI Application in Pyton
 
-We will setup a Python project and run our first Open AI call.
+We will setup a Python project and run our first Open AI call. This will ensure that everything you've set up so far is working.
 
 1. Create a new folder and open it in cursor.
 2. We'll first setup a virtual environment so any packages we install are only used in this project. Open the terminal by either selecting the terminal icon in the top right of the Cursor window or hitting cmd/cntl+J. 
