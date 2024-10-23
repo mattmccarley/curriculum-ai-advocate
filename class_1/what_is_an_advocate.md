@@ -22,7 +22,7 @@ The one deliverable for this course is to build your own geneartive AI applicati
 
 We've already covered the expectations, but here's a summary:
 
-- do all class prework (10 minutes)
+- do all class prework (10-20 minutes)
 - attend class (50 minutes)
 - build your own solution
 
