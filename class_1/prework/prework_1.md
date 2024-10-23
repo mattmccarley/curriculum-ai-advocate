@@ -6,19 +6,23 @@ In this course, we’ll be using Python. If you’ve never used Python before, d
 
 Outside of class, if you want to build AI apps using other languages, we will be providing extra code examples in JavaScript and Java for you to use. 
 
-#### Setting Up the Cursor
-Cursor is the best AI coding tool currently out there. It will greatly increase the speed at which you develop any application. We will go over how to use Cursor to get the most out of this course and out of your own development workflow.
+#### Setting Up Your IDE with Cursor
+Cursor is an IDE with AI embedded. Cursor will increase your development speed and will expose you to what a good AI UX is like. We will discuss later in this course how to get the most out of Cursor and how it effects the development workflow. For now, let's just get it installed.
+
 1. Go to https://www.cursor.com/
 2. Click the download button, which will download the install package to your computer. Open the package to install Cursor.
 3. Once installed, make sure you can open Cursor. 
 
 #### Setting Up UV
 UV is an extremely fast Python package and project manager, written in Rust. We’ll use this to install Python packages we need (including Python itself). 
-2. Mac: Run `curl -LsSf https://astral.sh/uv/install.sh | sh` 
+
+1. Mac: Run `curl -LsSf https://astral.sh/uv/install.sh | sh` 
    Windows: `powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"` for Windows
+2. After UV is installed, restart your terminal.
 
 #### Installing Python  
-1. uv python install
+With UV, this one is easy.
+1. Run `uv python install` in your terminal.
 
 #### Installing Pip 
 Pip is a Python package manager used to install Python libraries.
@@ -26,30 +30,6 @@ Pip is a Python package manager used to install Python libraries.
 1. Pip is automatically included with Python. To check if it’s installed, open terminal/command prompt and type:
    ```bash
    pip --version
-   ```
-
-#### Setting Up a Python Project
-
-1. Returning to your Cursor window, open a new folder.
-2. Open the terminal in Cursor, click on the terminal icon in the top right of the Cursor window.
-![Terminal Icon Location](../images/terminal_icon_location.png)
-3. In the terminal, we can create a virtual environment. This environment let's us install packages only for this project. 
- ```bash
- uv venv venv
- ```
-
-3. Now activate the environment:
-   - **Windows**:  
-     ```bash
-     .\venv\Scripts\activate
-     ```
-   - **Mac/Linux**:  
-     ```bash
-     source venv/bin/activate
-     ```
-Note: If you need to deactivate the environment, simply run:
-   ```bash
-   deactivate
    ```
 
 #### Getting an OpenAI API Key
