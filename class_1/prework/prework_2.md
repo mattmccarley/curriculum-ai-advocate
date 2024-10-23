@@ -1,10 +1,10 @@
-# Creating an AI Application in Pyton
+# Prework 2: Creating our first AI Application in Python
 
-We will setup a Python project and run our first Open AI call. This will ensure that everything you've set up so far is working.
+We will create a simple AI application to ensure your set up is correct.
 
 1. Create a new folder called `mindbit_starter_app` and open it in Cursor.
-2. We'll first setup a virtual environment so any packages we install are only used in this project. Open the terminal by either selecting the terminal icon in the top right of the Cursor window or hitting cmd/cntl+J. 
-    In the terminal, we'll create a virtual environment folder by typing
+2. We'll first setup a virtual environment so any packages we install are scoped to this project. Inside Cursor, open the terminal panel either selecting the terminal icon in the top right of the Cursor window or hitting cmd/cntl+J. 
+    In the terminal, create a virtual environment folder:
     ```bash
     uv venv venv
     ```
@@ -25,7 +25,7 @@ We will setup a Python project and run our first Open AI call. This will ensure 
     uv pip install openai
     ```
 
-3. Create a new file called `main.py`. In that file, paste the following:
+3. Create a new file called `main.py`. In that file, paste the following code:
 
     ```python
     from openai import OpenAI
@@ -63,10 +63,10 @@ We will setup a Python project and run our first Open AI call. This will ensure 
     python main.py
     ```
 
-5. Instead of explaining what this code does here, it would be better if you use Cursor do it.
+5. Instead of reading what this code does here, let's have Cursor do it.
 
-    Open the AI panel by either hitting ctrl/cmd+L or clicking the AI panel icon in the top right (next to the terminal icon).
+    Open the AI panel by either hitting cmd/cntl+L or clicking the AI panel icon in the top right (next to the terminal icon).
 
-    In the chat window, you can ask anything about the open file. Ask Cursor to explain any part of the code that you do not understand until you have a good grasp for how the code works. You could even prompt Cursor to change the code.
+    In the AI panel's chat window, you can ask anything about the open file. Ask Cursor to explain any part of the code (or all of it!) until you understand how the code works.
 
     We'll go over more about writing AI applications and using Cursor in class. You are now done with today's prework.
