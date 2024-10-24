@@ -37,26 +37,26 @@ structure instructions.
 1. **Whole Task: What We'll be Doing**
    
    - **Core Competency:** 
-        Understanding the goal of this course and what they'll be learning 
-        Know what an AI advocate is and how one helps their business
+        - Understanding the goal of this course and what they'll be learning 
+        - Know what an AI advocate is and how one helps their business
    
    - **Relevance:** 
         You're in this course to become an AI advocate. What does an AI advocate do? What is their role and what value do they bring? How do I influence my team/department/team when it comes to AI? Many other questions may exist, and this section will show you what that's like at a 10,000 ft level. 
    
    - **Procedure:**
       1. What technical skills do you need to know?
-        - Highlight projects and use cases that we'll be covering 
-        - show course topic overview (map)
+            - Highlight projects and use cases that we'll be covering 
+            - show course topic overview (map)
       1. Becoming an AI advocate
-        - Advocates...
-            - identify AI use cases and leads adoption
-            - are thought leader for AI in the company
-            - champion AI initiatives
-            - Adding "AI" to your job title can be particularly impactful here
-        - Show topic overview and higlight how each box has soft skills associated with these. We'll address these as we go.
+            - Advocates...
+                - identify AI use cases and leads adoption
+                - are thought leader for AI in the company
+                - champion AI initiatives
+                - Adding "AI" to your job title can be particularly impactful here
+            - Show topic overview and higlight how each box has soft skills associated with these. We'll address these as we go.
 
    - **Code:**
-        Chart of everything we need to do and how we advocate for each part (mind map of curiculum with an extra box on how to talk about it with the team)
+        A chart of everything we need to do and how we advocate for each part (mind map of curiculum with an extra box on how to talk about it with the team)
 
 
 1. **LLMs**
@@ -69,18 +69,15 @@ structure instructions.
    
    - **Procedure:**
       1. High level overview of how LLMs work
-        - training
-        - tokens
-        - generation
+            - training
+            - tokens
+            - generation
       2. Ship it!
-        - Identifying a use case is as simple as finding a task where humans read first, then produces something as a result
-            - file ingestion
-            - responding to reviews
-            - code generation
-            - even as simple as extracting dates (what are LLMs bad at vs good at; don't use AI when you can do the same thing easier using something else)
-
-   - **Code:**
-        None
+            - Identifying a use case is as simple as finding a task where humans read first, then produces something as a result
+                - file ingestion
+                - responding to reviews
+                - code generation
+                - even as simple as extracting dates (what are LLMs bad at vs good at; don't use AI when you can do the same thing easier using something else)
 
 1. **Prompts**
    
@@ -93,19 +90,19 @@ structure instructions.
    Prompting strategies help the LLM produce the best outputs. Some of these strategies like zero/few shot may seem trivial today, but understanding why they work will higlight. More complex strategies like chain of thought have opened new opportunities to what LLMs are capable of. Regardless of the strategy, they all follow one critical LLM principle: tokens are predicting based on the prompt and what has already been generated. 
    
    - **Procedure:**
-    1. Quick example of zero/one/few shot prompts
-        - highlight that I rarely use zero, I often use one, and occasionally I use few shot prompts.
-    2. Show how context impacts the results
-        - proprietary data is what makes your AI apps powerful
-        - genearlly better to add more context than is needed
-    2. Have the LLM rewrite your prompt
-        - The LLM will include what it thinks is most important, which is what you want
-    3. Ship it!
-        - A good prompt likely needs context. Identify who owns the context and bring them onto the project.
+        1. Quick example of zero/one/few shot prompts
+            - highlight that I rarely use zero, I often use one, and occasionally I use few shot prompts.
+        2. Show how context impacts the results
+            - proprietary data is what makes your AI apps powerful
+            - genearlly better to add more context than is needed
+        2. Have the LLM rewrite your prompt
+            - The LLM will include what it thinks is most important, which is what you want
+        3. Ship it!
+            - A good prompt likely needs context. Identify who owns the context and bring them onto the project.
 
    - **Code:**
-    - File Ingestion - Category Selector
-    - Prompt Optimzer
+        - File Ingestion - Category Selector
+        - Prompt Optimzer
 
 1. **Structured outputs**
    
@@ -117,24 +114,21 @@ structure instructions.
    
    - **Procedure:**
       1. Chain of Thought
-        - structure and effectiveness
-        - The principle that LLMs predict the next token by when was given and what was already produced is highlighted strongly by this prompting idea. We can leverage this to produce better outputs in our apps
+            - structure and effectiveness
+            - The principle that LLMs predict the next token by when was given and what was already produced is highlighted strongly by this prompting idea. We can leverage this to produce better outputs in our apps
       2. Ship it!
-        - Use structure to extract specific pieces of information.
+            - Use structure to extract specific pieces of information.
 
-   - **Code:**
-    - movie review sentiment analysis
+   - **Code:** movie review sentiment analysis
 
 
 ### Code Examples (to be used in class and provided to students)
-- File Ingestion - Category Selector
-    - how context changes outputs
+- File Ingestion - Category Selector (how context changes outputs)
 - movie review sentiment analysis
 - Prompt optimizer
 
 
-
-Meta notes (a place for byron to store thoughts):
+**Byron's scratchpad (extra notes):**
 
 2. How to start influencing your team as an AI advocate.
     - explain what is possible with AI
