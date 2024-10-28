@@ -1,21 +1,18 @@
-# Developer Productivity
+# Fine Tuning
 
 ## Introduction
 
-
 ## Core Competencies
 
-GenAI apps for developers
-Examples of top tools:
-Cursor
-Chat
-Inline chat
-Indexing docs/codebase
+Reduces token usage and costs
+Topics covered:
+Fine-tuning process and pros/cons
+Data preparation and model selection
+Model merging and evaluation
 
-Tools walkthrough:
-Agents
-Ollama
-LangChain
+Examples:
+SQL DB fine-tuning
+Review response generator
 
 ### The student must demonstrate...
 

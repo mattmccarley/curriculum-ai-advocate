@@ -1,20 +1,21 @@
-# Image Generation
+# Developer Tools for AI productivity
 
 ## Introduction
 
 
 ## Core Competencies
-
-Reduces design costs
-Creative uses beyond logos
 Topics covered:
-Overview of image generation tools
-Prompts for image generation
-Generating similar characters in images
+Image generation
 
 Examples:
 Swapping people in images
 Creating logos
+
+GenAI apps for developers
+Examples of top tools:
+
+- Ollama
+- LangChain
 
 ### The student must demonstrate...
 
