@@ -1,34 +1,154 @@
 # AI Project Planning Document
-## Project Use Case
-**Instructions:** Create a Google Doc for yourself that answers the following questions below. We will refer to this document throughout your learning experience. This is not a throw-away exercise—think of it as your design document as you continue to build.
 
-Answer the following questions to help you identify a project use case:
+## Introduction
 
-**1. What is the use case that you want to address with your AI project?**
+This document serves as your project blueprint throughout the course. Take time to thoughtfully complete each section—your answers will guide your development process and help identify potential challenges early. Create a personal copy in Google Docs to track your progress and iterations.
 
-_Example: Determine whether movie reviews are positive or negative._
+## Part 1: Core Project Definition
 
-**2. What data do you currently have that you can use in this project?**
+### 1. Project Use Case Definition
 
-_Example: Rotten Tomatoes has reviews and the sentiment analysis_
+**Question:** What specific problem or task will your AI project address?
 
-**3. What data do you currently not have that you will need to gather for this project?**
+**Guidelines:**
 
-_Example: Transcripts from YouTube videos_
+- Define the scope clearly and concisely
+- Focus on a single, well-defined task
+- Consider the practical value and impact
 
-**4. Provide one to three examples of ideal inputs and outputs for your project. (If you can’t come up with examples, that may be a sign that this project is not a good fit for this class)**
+**Example Responses:**
 
-_Example: 
-Input: This film shouldn't work at all. It doesn't have much of a story and the whole dial up internet thing is incredibly dated. However, Hanks and Ryan sell it beautifully._
-_Output: Positive_
+- "Automatically categorize customer support tickets by urgency and department"
+- "Generate personalized email responses to common customer inquiries"
+- "Extract key action items from meeting transcripts"
 
-_Input: The clumsily loaded characterisation not only treats almost every other figure as dispensable, but doesn't even bother to make Meg and Tom properly sympathetic.
-Output: Negative_
+### 2. Available Data Assessment
 
-_Input: Mail may not be as romantic as Sleepless, but it's wittier.
-Output: Positive_
+**Question:** What existing data resources can you leverage for this project?
 
+**Guidelines:**
 
+- List all relevant internal data sources
+- Consider existing documentation
+- Identify available examples or templates
 
+**Example Resources:**
 
+- "Historical customer support tickets with resolution data"
+- "Repository of approved email responses"
+- "Library of annotated meeting summaries"
 
+### 3. Data Gap Analysis
+
+**Question:** What additional data or resources will you need to acquire?
+
+**Guidelines:**
+
+- Identify missing critical information
+- Consider data quality requirements
+- Note potential sources for needed data
+
+**Example Gaps:**
+
+- "Customer satisfaction scores for previous responses"
+- "Standardized urgency classification guidelines"
+- "Subject matter expert validation criteria"
+
+### 4. Input/Output Examples
+
+**Question:** Provide 2-3 concrete examples of your project's intended inputs and outputs.
+
+**Guidelines:**
+
+- Make examples specific and realistic
+- Show variety in your examples
+- Include edge cases if possible
+
+#### Example Set 1: Meeting Summary Generator
+
+**Input:**
+
+```
+[Meeting Transcript]
+John: Let's discuss the Q4 marketing campaign.
+Sarah: Budget is set at $50,000.
+John: We need final designs by October 1st.
+Sarah: I'll coordinate with the design team.
+```
+
+**Output:**
+
+```
+Key Decisions:
+- Q4 marketing campaign budget: $50,000
+- Design deadline: October 1st
+
+Action Items:
+- Sarah: Coordinate with design team
+- All: Review campaign budget allocation
+```
+
+#### Example Set 2: Customer Support Classifier
+
+**Input:**
+
+```
+Subject: Unable to log in after password reset
+Message: I tried resetting my password but still can't access my account. 
+This is urgent as I have a presentation in 30 minutes!
+```
+
+**Output:**
+
+```
+Priority: High
+Department: Account Security
+Category: Login Issues
+Response Time Target: 15 minutes
+```
+
+#### Example Set 3: Email Response Generator
+
+**Input:**
+
+```
+Customer: When will the blue sweater be back in stock? 
+I've been checking the website daily.
+```
+
+**Output:**
+
+```
+Dear valued customer,
+
+Thank you for your interest in our blue sweater. Our next shipment 
+is scheduled to arrive on [date]. Would you like me to set up a 
+notification for when it becomes available?
+
+Best regards,
+[Agent Name]
+```
+
+## Next Steps
+
+1. **Review & Refine**
+
+   - Ensure your examples are representative of real use cases
+   - Verify that your data sources are accessible
+   - Confirm the scope is achievable within the course timeline
+
+3. **Documentation**
+
+   - Save this document in your Google Drive
+   - Share with course instructors if required
+   - Keep it updated as your project evolves
+
+5. **Preparation**
+
+   - Begin gathering your identified data sources
+   - Set up any necessary access permissions
+   - Review relevant documentation
+
+---
+
+*Note: This document should evolve throughout the course. Regularly update it with new insights and adjustments to your project scope.*
